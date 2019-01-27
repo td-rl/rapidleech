@@ -1,10 +1,13 @@
 ==> For Support Related Rapidleech Visit - www.rapidleech.com 
 
 ==> Last Update - January,2016 
+<br> Recently updated fork</br>
 
 ==> Latest Version - Rev.431 
+<br> New versioning scheme soon</br>
 
-==> Active Contributors - 1
+==> Active Contributors - 0
+<br>Amended as Th3-822 has left</br>
 
 ==> Notes
 * RAR5 Is Now Supported.
@@ -17,6 +20,4 @@ For webmasters, if you have not tried the script before, download and install no
 
 For end-users, you may search on our forum for readily available installed scripts on servers worldwide. You may use them but please support these sites by visiting their sponsors or donate in order to keep these sites available.
 
-## Deploy to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+**Removed Delpoy
