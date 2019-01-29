@@ -5,7 +5,7 @@ if (!defined('RAPIDLEECH')) {
 }
 
 // Allow user-agent to be changed easily
-if (!defined('rl_UserAgent')) define('rl_UserAgent', 'Mozilla/5.0 (Windows NT 6.1; rv:52.0) Gecko/20100101 Firefox/52.0');
+if (!defined('rl_UserAgent')) define('rl_UserAgent', 'Mozilla/5.0 (Windows NT 6.1; rv:60.0) Gecko/20100101 Firefox/60.0');
 
 /*
  * Pauses for countdown timer in file hosts
@@ -376,7 +376,7 @@ function geturl($host, $port, $url, $referer = 0, $cookie = 0, $post = 0, $saveT
 			}
 			if ($bytesReceived >= $bytesTotal) $percent = 100;
 			else $percent = @round(($bytesReceived + $Resume['from']) / ($bytesTotal + $Resume['from']) * 100, 2);
-			if ($bytesReceived > $last + $chunkSize && (!$lastChunkTime || !(((microtime(true) - $timeStart) - $lastChunkTime) < 1))) {
+			if ($bytesReceived > $last + $chunkSize && (!$lastChunkTime || !((microtime(true) - $lastChunkTime) < 1))) {
 				$received = bytesToKbOrMbOrGb($bytesReceived + $Resume['from']);
 				$time = microtime(true) - $timeStart;
 				$chunkTime = $time - $lastChunkTime;
