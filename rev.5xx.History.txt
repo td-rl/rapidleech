@@ -1,0 +1,14 @@
+Rapidleech 
+
+====================================
+Rev. 500 - 01 Feb 2019
+- Changes were made previous to this date, but this will be the date used as reference for rev. 5xx
+- Reverted changes to http.php to allow faster updating of transload progress bar
+- Updated Useragent to FireFox ESR v60.
+- Edited README.MD to reflect some changes
+- Prepare to push new openload plugin
+
+
+
+
+
